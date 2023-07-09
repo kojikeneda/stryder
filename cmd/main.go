@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"stryder/pkg/statuschecker"
+
+	"github.com/stryder/pkg/statuschecker"
 )
 
 func main() {
@@ -28,6 +29,7 @@ func TestURL(url string, checkers []statuschecker.StatusChecker) {
 			fmt.Println(status)
 			return
 		}
+
 	}
 	fmt.Println("No checker can handle this URL")
 }
