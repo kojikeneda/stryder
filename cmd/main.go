@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/stryder/pkg/statuschecker"
+	"github.com/kojikeneda/statuschecker"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 		// You can add more StatusCheckers here for other services.
 	}
 
-	TestURL("https://example.com", checkers)
+	TestURL("https://status.atlassian.com", checkers)
 }
 
 func TestURL(url string, checkers []statuschecker.StatusChecker) {
