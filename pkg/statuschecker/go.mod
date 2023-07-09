@@ -1,3 +1,3 @@
-module github.com/kojikeneda/stryder/statuschecker
+module github.com/kojikeneda/statuschecker
 
 go 1.20
