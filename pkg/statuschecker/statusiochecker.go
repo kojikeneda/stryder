@@ -1,4 +1,4 @@
-package statuschecker
+package statusiochecker
 
 // StatusIOChecker is a StatusChecker for services using Status.io.
 type StatusIOChecker struct{}

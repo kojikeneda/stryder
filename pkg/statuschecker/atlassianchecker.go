@@ -1,4 +1,4 @@
-package statuschecker
+package AtlassianChecker
 
 import (
 	"encoding/json"
